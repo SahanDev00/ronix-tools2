@@ -7,3 +7,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.zoom-lens {
+    transition: background-position 0.1s ease-in-out;
+}

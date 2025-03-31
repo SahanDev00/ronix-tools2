@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { MdOutlineDoubleArrow } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
-const AllProducts = () => {
+const ToolsAccessories = () => {
 
     const [categories, setCategories] = useState([]);
     const [subCategories, setSubCategories] = useState([]);
@@ -109,7 +109,7 @@ const AllProducts = () => {
 
     const fetchProducts = async () => {
         try {
-            const response = await axios.get(`${process.env.REACT_APP_API_URL}/Item`, {
+            const response = await axios.get(`${process.env.REACT_APP_API_URL}/ItemCategoryMainID=CTM_0018`, {
                 headers: {
                     APIKey: process.env.REACT_APP_API_KEY
                 }
@@ -136,10 +136,10 @@ const AllProducts = () => {
   return (
     <div className='w-full pt-20 font-karla'>
         <div className='w-full lg:h-[350px] relative'>
-            <img src="https://as2.ftcdn.net/jpg/05/08/66/17/1000_F_508661747_I6zg5AF12XBCU1jLbFHo0X3wfAHaM0GA.jpg" className='w-full h-full object-cover' alt="" />
+            <img src="https://www.shutterstock.com/image-photo/all-tools-supplies-home-construction-600nw-1964203402.jpg" className='w-full h-full object-cover' alt="" />
             <div className='absolute w-full h-full flex items-center justify-center inset-0 bg-black opacity-60' />
             <div className='absolute w-[80%] mx-auto h-full flex items-center inset-0'>
-                <h1 className='text-4xl md:text-6xl text-white font-bold font-karla opacity-100 uppercase'>All Products</h1>
+                <h1 className='text-4xl md:text-6xl text-white font-bold font-karla opacity-100 uppercase'>Ronix Tools and Accessories</h1>
             </div>
         </div>
 
@@ -202,4 +202,4 @@ const AllProducts = () => {
   )
 }
 
-export default AllProducts
+export default ToolsAccessories
