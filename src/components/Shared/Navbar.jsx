@@ -94,18 +94,18 @@ const Navbar = () => {
            <FaWhatsapp className='size-7'/>
       </a>
       <div className='fixed h-[200px] w-[50px] z-50 top-[40%] hidden lg:flex flex-col'>
-          <div className='w-full h-[50px] bg-blue-600 flex items-center justify-center text-white text-lg hover:w-[85%] mx-auto duration-200 cursor-pointer'>
+          <a href='http://www.facebook.com/sharer.php?u=https%3A%2F%2Fmerclanka.com%2Ftool-accessories%2F&t=Tool%20Accessories' target='_blank' rel="noreferrer" className='w-full h-[50px] bg-blue-600 flex items-center justify-center text-white text-lg hover:w-[85%] mx-auto duration-200 cursor-pointer'>
             <FaFacebookF />
-          </div>
-          <div className='w-full h-[50px] bg-blue-400 flex items-center justify-center text-white text-lg hover:w-[85%] mx-auto duration-200 cursor-pointer'>
+          </a>
+          <a href='http://twitter.com/share?text=Tool%20Accessories&url=https%3A%2F%2Fmerclanka.com%2Ftool-accessories%2F' target='_blank' rel="noreferrer" className='w-full h-[50px] bg-blue-400 flex items-center justify-center text-white text-lg hover:w-[85%] mx-auto duration-200 cursor-pointer'>
             <FaTwitter />
-          </div>
-          <div className='w-full h-[50px] bg-red-500 flex items-center justify-center text-white text-lg hover:w-[85%] mx-auto duration-200 cursor-pointer'>
+          </a>
+          <a href='https://merclanka.com/tool-accessories/#' target='_blank' rel="noreferrer" className='w-full h-[50px] bg-red-500 flex items-center justify-center text-white text-lg hover:w-[85%] mx-auto duration-200 cursor-pointer'>
             <FaPinterestP />
-          </div>
-          <div className='w-full h-[50px] bg-blue-500 flex items-center justify-center text-white text-lg hover:w-[85%] mx-auto duration-200 cursor-pointer'>
+          </a>
+          <a href='http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fmerclanka.com%2Ftool-accessories%2F&title=Tool%20Accessories' target='_blank' rel="noreferrer" className='w-full h-[50px] bg-blue-500 flex items-center justify-center text-white text-lg hover:w-[85%] mx-auto duration-200 cursor-pointer'>
             <FaLinkedinIn />
-          </div>
+          </a>
         </div>
     </div>
   )

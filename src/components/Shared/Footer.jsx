@@ -76,7 +76,7 @@ const Footer = () => {
       <div className="bg-stone-900 w-full h-[70px] flex items-center justify-center text-center px-4">
         <p className="text-white text-sm sm:text-base">
           Copyright © Merc Lanka | Designed by{" "}
-          <span className="text-blue-400">Exesmart Dynamics</span>
+          <a href="https://www.exesmart.com" rel="noreferrer" target="_blank" className="text-blue-400">Exesmart Dynamics</a>
         </p>
       </div>
     </div>
