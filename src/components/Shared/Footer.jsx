@@ -2,6 +2,7 @@ import React from "react";
 import { FaMapLocation, FaPhone } from "react-icons/fa6";
 import { IoIosPhonePortrait } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,9 +21,15 @@ const Footer = () => {
         <div className="text-center md:text-left">
           <h1 className="text-white font-bold text-xl">PRODUCTS</h1>
           <ul className="text-white mt-3 space-y-2 list-disc">
-            <li className="text-lg">Home</li>
-            <li className="text-lg">Products</li>
-            <li className="text-lg">Accessories</li>
+            <Link to='/'>
+              <li className="text-lg">Home</li>
+            </Link>
+            <Link to='/products'>
+              <li className="text-lg">Products</li>
+            </Link>
+            <Link to='/tool-accessories'>
+              <li className="text-lg">Accessories</li>
+            </Link>
           </ul>
         </div>
 
