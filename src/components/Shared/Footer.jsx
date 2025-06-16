@@ -21,13 +21,13 @@ const Footer = () => {
         <div className="text-center md:text-left">
           <h1 className="text-white font-bold text-xl">PRODUCTS</h1>
           <ul className="text-white mt-3 space-y-2 list-disc">
-            <Link to='/'>
+            <Link to="/">
               <li className="text-lg">Home</li>
             </Link>
-            <Link to='/products'>
+            <Link to="/products">
               <li className="text-lg">Products</li>
             </Link>
-            <Link to='/tool-accessories'>
+            <Link to="/tool-accessories">
               <li className="text-lg">Accessories</li>
             </Link>
           </ul>
@@ -36,7 +36,7 @@ const Footer = () => {
         {/* Address & Email */}
         <div className="space-y-7">
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 text-center sm:text-left">
-            <FaMapLocation className="size-10 text-purple-600" />
+            <FaMapLocation className="size-10 text-[#bf0000]" />
             <div>
               <h1 className="text-white font-bold text-xl">ADDRESS</h1>
               <p className="text-gray-200 mt-2">No.38, Pannala Road,</p>
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 text-center sm:text-left">
-            <MdEmail className="size-10 text-purple-600" />
+            <MdEmail className="size-10 text-[#bf0000]" />
             <div>
               <h1 className="text-white font-bold text-xl">EMAIL</h1>
               <p className="text-gray-200 mt-2">sales@merclanka.com</p>
@@ -56,14 +56,14 @@ const Footer = () => {
         {/* Mobile & Phone */}
         <div className="space-y-7">
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 text-center sm:text-left">
-            <IoIosPhonePortrait className="size-10 text-purple-600" />
+            <IoIosPhonePortrait className="size-10 text-[#bf0000]" />
             <div>
               <h1 className="text-white font-bold text-xl">MOBILE</h1>
               <p className="text-gray-200 mt-2">+94 777 422 833</p>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 text-center sm:text-left">
-            <FaPhone className="size-10 text-purple-600" />
+            <FaPhone className="size-10 text-[#bf0000]" />
             <div>
               <h1 className="text-white font-bold text-xl">PHONE</h1>
               <p className="text-gray-200 mt-2">+94 372 280 280</p>
@@ -76,7 +76,14 @@ const Footer = () => {
       <div className="bg-stone-900 w-full h-[70px] flex items-center justify-center text-center px-4">
         <p className="text-white text-sm sm:text-base">
           Copyright © Merc Lanka | Designed by{" "}
-          <a href="https://www.exesmart.com" rel="noreferrer" target="_blank" className="text-blue-400">Exesmart Dynamics</a>
+          <a
+            href="https://www.exesmart.com"
+            rel="noreferrer"
+            target="_blank"
+            className="text-blue-400"
+          >
+            Exesmart Dynamics
+          </a>
         </p>
       </div>
     </div>
